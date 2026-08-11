@@ -1,0 +1,36 @@
+body{
+    background-color: blueviolet;
+    background-image: linear-gradient( to bottom,purple,coral);
+    background-repeat: no-repeat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    min-height: 100vh;
+}
+.page-header{
+    background-image: linear-gradient( to left,red,orange);
+    border-radius: 16px;
+    text-align: center;
+    color: blue;
+}
+.fact-card{
+    background-color: chocolate;
+    border-radius: 16px;
+    color: dark
+    text-align: center;
+}
+h2{
+    color: aqua;
+}
+.star{
+    width: 60px; height: 60px;
+    background-color: yellow;
+    border-radius: 50%;
+    animation: twinkle 2s infinite alternate;
+}
+@keyframes twinkle{
+    from{background-color: yellow;}
+    to{background-color: darkviolet;
+}
+.footer-text{
+    text-align: center;
+    color: chartreuse;
+}
