@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My pet page</title>
+<style>
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(113, 95, 214);
+    min-height: 1800px;
+    padding: 65px 30px 30px 30px;
+    font-weight: bolder;
+}
+h1,h2 {
+    color: rgb(126, 77, 4);
+}
+.top-bar{
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: rgb(30, 8, 226);
+    background-color: brown;
+   padding: 14px 20px 20px;
+}
+.list-item{
+         background-color: coral;
+         border: 2px solid darkred;
+         padding: 10px 20px;
+         margin: 5px 0;
+}
+.speacial-note{ 
+             position: relative;
+             background-color: cornflowerblue;
+             padding: 10px 20px;
+}
+.pet-card{
+    position: relative;
+    background-color: chartreuse;
+    border: 3px solid greenyellow;
+     padding: 15px 25px;
+}
+.badge{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    padding: 4px 8px;
+    background-color: darkcyan;
+    color: darkkhaki;
+}
+.section-label{
+    position: sticky;
+    top: 55px;
+    margin: 15px 0 8px;
+    padding: 10px  20px;
+    background-color: darkgoldenrod;
+    color: darksalmon;
+}
+</style>
+</head>
+<center>
+<body>
+<div class="top-bar">My Pet page Buddy the Labrador</div>
+<h1>Meet Buddy!</h1>
+<h2>Static</h2>
+<div class="list-item">Breed: Labrador</div>
+<div class="list-item">Age: 2 year old</div>
+<h2>Relative</h2>
+<p>this note shifts right from its normal spot</p>
+<div class="speacial-note">Pet of the Month</div>
+<h2>Absolute</h2>
+<p>The badge is pinned to the corner of the card</p>
+<div class="pet-card"><p>buddy-Labrador , 2 years</p>
+<div class="badge">Adopted!</div></div>
+<h2>Sticky</h2>
+<p>Scroll down - the label locks at the top!</p>
+<div class="section-label">More pet available</div>
+<div class="list-item">Luna-poodle, one year</div>
+<div class="list-item">Max-german shephard, three year</div>
+<div class="list-item">Dasiy-golden retriever, two year</div>
+</center>
+</body>
+</html>
