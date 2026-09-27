@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+body {
+    background-color: rgb(233, 245, 126);
+    text-align: center;
+    text-transform: capitalize;
+    color: coral;
+    text-decoration: underline;
+    font-family: cursive;
+}
+h2 {
+    border: 5px solid red;
+}
+.container {
+        font-weight: bolder;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>My contact info</h1>
+<h2>Name</h2>
+<p id="demo"></p>
+<h2>Phone</h2>
+<p id="demo1"></p>
+<h2>hobbies</h2>
+<p id="demo2"></p>
+<h2>City</h2>
+<p id="demo3"></p>
+</div>
+<script>
+var contact ={
+    name:"nehan",
+    phone :49749374374,
+    hobbies:"football",
+    city:"mumbai",
+}
+document.getElementById("demo").innerHTML=contact.name
+document.getElementById("demo1").innerHTML=contact.phone
+document.getElementById("demo2").innerHTML=contact.hobbies
+document.getElementById("demo3").innerHTML=contact.city
+</script>
+</body>
+</html>
